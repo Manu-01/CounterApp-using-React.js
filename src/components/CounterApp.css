@@ -1,0 +1,41 @@
+button {
+    background-color: #4c9baf;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+h1 {
+
+    color: GREY;
+    text-align: center;
+    margin: 4px 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reset {
+    margin-top: 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10ox;
+}
+
+.counter {
+    align-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 250px;
+    width: 250px;
+    margin-left: 40%;
+    align-items: center;
+    background-color: lightblue
+}
