@@ -5,6 +5,8 @@ import Practise from './useState/Practise'
 import First from './useEffect/first'
 import Second from './useEffect/Second'
 import Array from './useState/Array'
+import Api from './useEffect/Api'
+import ComponentA from './useContext/ComponentA'
 
 
 
@@ -19,6 +21,8 @@ function App() {
       <First />
       <Second />
       <Array />
+      <Api />
+      <ComponentA />
 
     </>
 

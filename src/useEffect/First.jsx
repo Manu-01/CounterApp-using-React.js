@@ -6,15 +6,18 @@ function First() {
     const [date, setDate] = useState(0)
     useEffect(() => {
         //date
+        console.log("count: ", count)
         const cleardate = setInterval(() => {
             const updateedDate = new Date();
             setDate(updateedDate.toLocaleTimeString());
         }, 1000)
+
         return (() => {
-            clearInterval(cleardate)
+            clearInterval(cleardate)  // cleanup code 
         })
+
         // counter app
-        console.log("count: ", count)
+
 
     }, [count]);
 

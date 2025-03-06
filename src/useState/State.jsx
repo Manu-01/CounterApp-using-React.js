@@ -16,7 +16,7 @@ function State() {
         setState({ intitial: 0 })
     }
     return (
-        <div>
+        <div style={{ textAlign: "center" }}>
             <div className='counter'>
                 <h1>COUNTER APP </h1>
                 <button onClick={addvalue}> + </button>
@@ -29,4 +29,4 @@ function State() {
     )
 }
 
-export default State
+export default State 
