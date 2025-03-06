@@ -1,6 +1,10 @@
 import './App.css'
 import React from 'react'
-import State from './components/State'
+import State from './useState/State'
+import Practise from './useState/Practise'
+import First from './useEffect/first'
+import Second from './useEffect/Second'
+import Array from './useState/Array'
 
 
 
@@ -11,6 +15,10 @@ function App() {
     <>
 
       <State />
+      <Practise />
+      <First />
+      <Second />
+      <Array />
 
     </>
 
